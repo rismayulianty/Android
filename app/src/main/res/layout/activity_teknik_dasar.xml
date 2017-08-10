@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teknik_dasar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/nk"
+    tools:context="assalaam.basketball.id.basketball.TeknikDasar">
+
+    <TextView
+        android:text="Teknik Dasar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:id="@+id/textView18"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Teknik pivot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:background="#000"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/button16"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Teknik Rebound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button19"
+        android:background="#000"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/button18"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18" />
+
+    <Button
+        android:text="Teknik Menggiring dribbling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:background="#000"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <Button
+        android:text="Teknik Shooting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button18"
+        android:background="#000"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/button17"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Teknik Mengoper (passing)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button16"
+        android:background="#000"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button15"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15" />
+
+</RelativeLayout>

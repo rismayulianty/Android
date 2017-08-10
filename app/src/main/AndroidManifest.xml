@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assalaam.basketball.id.basketball">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nk"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Basket">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Sejarah" />
+        <activity android:name=".Peraturan" />
+        <activity android:name=".TeknikDasar" />
+        <activity android:name=".TeknikDasar1" />
+        <activity android:name=".Seputar" />
+        <activity android:name=".TeknikDasar3" />
+        <activity android:name=".TeknikDasar2" />
+        <activity android:name=".Info" />
+        <activity android:name=".TeknikDasar4" />
+        <activity android:name=".TeknikDasar5" />
+        <activity android:name=".WebActivity"></activity>
+    </application>
+
+</manifest>

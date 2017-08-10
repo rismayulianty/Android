@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teknik_dasar2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/kk"
+    tools:context="assalaam.basketball.id.basketball.TeknikDasar2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+    <TextView
+        android:text="Teknik Mengoper (passing)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Teknik Passing merupakan teknik dasar permainan bola basket yang harus kamu kuasai betul agar bisa bermain secara kolektif. Teknik passing / mengumpan merupakan gerakan melempar bola kepada teman yang masih dalam satu tim. Passing bisa dilakukan dengan menggunakan dua tangan atau satu tangan saja, tujuan dari melakukan passing adalah untuk menjaga bola dari rebutan lawan dan menyusun serangan dengan terobosan matang atau gerak tipuan."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/passing"
+        android:id="@+id/imageView"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+    </RelativeLayout>
+</ScrollView>

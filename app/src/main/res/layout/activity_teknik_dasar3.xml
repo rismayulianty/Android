@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teknik_dasar3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/basket"
+    tools:context="assalaam.basketball.id.basketball.TeknikDasar3">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+    <TextView
+        android:text="Teknik Pivot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="106dp"
+        android:layout_marginEnd="106dp" />
+
+            <TextView
+        android:text="Seperti namanya pivot berarti tumpuan, teknik pivot biasanya digunakan untuk melakukan gerak tipu yaitu dengan cara mengerakkan badan dengan tumpuan salah satu kaki dengan kedua tangan yang menjaga bola dari lawan. Aturan melakukan pivot yaitu tidak boleh menggeser kaki yang menjadi tumpuan saat memutar badan. Usahakan kamu memilih kaki yang terkuat untuk menjadi tumpuan saat kamu memutar badan untuk melakukan gerakan tipuan, kamu boleh menggerakan kaki yang lain asalkan kaki tumpuan tidak bergeser."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/passing"
+                android:id="@+id/imageView2"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+</ScrollView>

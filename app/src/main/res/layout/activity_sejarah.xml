@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sejarah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/sejarah"
+    tools:context="assalaam.basketball.id.basketball.Sejarah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+    <TextView
+        android:text="Sejarah"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="15pt"/>
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="150dp"
+        android:src="@drawable/naismith_james"
+        android:layout_weight="0.57" />
+    <TextView
+        android:text="Basket dianggap sebagai olahraga unik karena diciptakan secara tidak sengaja oleh seorang guru olahraga. Pada tahun 1891, Dr. James Naismith, seorang guru olahraga asal Kanada yang mengajar di sebuah perguruan tinggi untuk para siswa profesional di YMCA (sebuah wadah pemuda umat Kristen) di Springfield, Massachusetts, harus membuat suatu permainan di ruang tertutup untuk mengisi waktu para siswa pada masa liburan musim dingin di New England. Terinspirasi dari permainan yang pernah ia mainkan saat kecil di Ontario,Naismith menciptakan permainan yang sekarang dikenal sebagai bola basket pada 15 Desember 1891."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="7pt"/>
+    </LinearLayout>
+</ScrollView>
